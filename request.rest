@@ -1,0 +1,20 @@
+GET http://192.168.12.52:5000/trainees
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6ImFkbWluQDEyMyIsImlhdCI6MTY1NjMwNjQxNH0.W3B-ljCxMWVEXUMeMyaYC6yYekoZIR6NVNfFSqQnQts"
+
+
+
+###
+
+POST http://192.168.12.52:5000/login 
+Content-Type: application/json
+
+{
+    "username" : "admin", 
+    "password" : "admin@123"
+}
+
+
+
+
+
+
